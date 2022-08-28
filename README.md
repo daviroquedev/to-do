@@ -17,6 +17,7 @@ Apenas de forma local, *nao foi feito o back-end.
   <li> REGISTRAR HORA QUE INICIOU A TAREFA</li>
   <li> CRONOMETRO POMODORO 25MIN </li>
   <li> ALTERAR BACKGROUND OUTRAS IMAGENS </li>
+  <li> FUNÇÃO PESQUISAR </li>
 </ul>
 
 <h2> LINKS </h2>
