@@ -9,7 +9,7 @@ Apenas de forma local, *nao foi feito o back-end.
   <li> Editar tarefa</li>
   <li> Marcar tarefa como concluida</li>
   <li> Excluir tarefa</li>
-   <li> FILTRAR TAREFAS FEITAS, A FAZER E COMPLETADAS </li>
+   <li>Filtrar tarefas: Feitas, A fazer, Finalizadas.</li>
 </ul>
 
 <h2> PROXIMAS ATUALIZAÇÕES </h2>
