@@ -134,69 +134,36 @@ function onChange() {
     const valueFilter = filterSelect.value;
     const textFilter = filterSelect.options[filterSelect.selectedIndex].text;
 
-    const todoClass = document.querySelectorAll("#todo-list > *")
-
-    console.log(valueFilter, textFilter);
+    const todoClass = document.querySelectorAll(".todo")
 
 
 
     if (valueFilter == "all") {
-        // exibe todos
-        // remove todas as classes hide
 
         todoClass.forEach((item) => {
             const itemList = item
-            console.log(itemList)
+            itemList.style.display = "flex"  
         
-            if(itemList.classList.contains("hide")){
-                itemList.classList.remove("hide")
-                itemList.classList.add("todo")
-                
-            }
-             
         })
 
     }
 
     if (valueFilter == "done") {
-        // se nao tem a classe done, fica "hide"
-        //so mostra os done..
-        //done? exibe : coloca classe hide
-        
+
         todoClass.forEach((item) => {
             const itemList = item
-            console.log(itemList)
-        
-            if(itemList.classList.contains("done")){
-                itemList.classList.remove("hide")
-                itemList.classList.add("todo")
-               
-            } else {
-                itemList.classList.add("hide")
-                itemList.classList.remove("todo")
-            }
+            itemList.classList.contains("done")?itemList.style.display = "flex" : itemList.style.display = "none";
              
         })
-
     }
+
     if (valueFilter == "todo") {
-        // exibe todos que nao tem a classe Done
-        // se tiver classe done fica "hide"
-        //hide em todos que tem a classe done <<
+      
         todoClass.forEach((item) => {
             const itemList = item
-            console.log(itemList)
-
-            if(itemList.classList.contains("done")){
-                itemList.classList.add("hide")
-                itemList.classList.remove("todo")
-                itemList.classList.remove('done')
-            }
+            !itemList.classList.contains("done")? itemList.style.display = "flex" : itemList.style.display = "none" ;  
          
-
         })
-
-
     }
 }
 
