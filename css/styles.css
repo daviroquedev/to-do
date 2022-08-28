@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+.hide {
+    display: none; 
+}
+
+
 body {
     background-image: url("../img/paisagem.gif");
     background-size: cover;
@@ -49,9 +54,8 @@ input, select {
     padding: .25rem 0.5rem;
 }
 
-.hide {
-    display: none;
-}
+
+
 
 
 /* TO DO HEADER */
