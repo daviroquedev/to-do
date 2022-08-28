@@ -17,6 +17,7 @@ body {
     background-image: url("../img/paisagem.gif");
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: black;
 }
 
 button {
@@ -30,6 +31,8 @@ button {
     justify-content: center;
     align-items: center;
     transition: 0.4s;
+    max-height: 30px;
+    margin-right: 10px;
 }
 
 button:hover {
@@ -52,6 +55,8 @@ button i {
 
 input, select {
     padding: .25rem 0.5rem;
+    max-width: 150px;
+    max-height: 30px;
 }
 
 
@@ -61,7 +66,7 @@ input, select {
 /* TO DO HEADER */
 
 .todo-container {
-    max-width: 450px;
+    max-width: 600px;
     margin: 10rem auto;
     background-color: #FDFDFD;
     padding: 1.5rem;
@@ -77,12 +82,26 @@ input, select {
 
 /* TODO FORM */
 
-#todo-form, #edit-form {
+#todo-form {
     padding: 1rem;
-    border-bottom: 1px solid #CCC
+    border-bottom:1px solid #CCC;
+    display: flex;
+    flex-direction: column;
 }
 
-#todo-form p, #edit-form p {
+#themas-form {
+    padding: 1rem;
+    border-bottom:1px solid #CCC;
+    display: flex;
+    flex-direction: column;
+}
+
+#edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #CCC;
+}
+
+#todo-form p, #edit-form p, #themas-form p {
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
@@ -167,4 +186,10 @@ input, select {
     color: #fff;
     text-decoration: line-through;
     font-style: italic;
+}
+
+#themas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

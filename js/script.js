@@ -6,6 +6,12 @@ const todoList = document.querySelector("#todo-list")
 const editForm = document.querySelector("#edit-form")
 const editInput = document.querySelector("#edit-input")
 const cancelEditBtn = document.querySelector("#cancel-edit-btn")
+const themeBeach = document.querySelector("#beachBtn")
+const themeHack = document.querySelector("#hackerBtn")
+const themeWild = document.querySelector("#wildBtn")
+const themeFocus = document.querySelector("#focusBtn")
+const body = document.querySelectorAll("body")
+
 
 
 let oldInputValue;
@@ -78,6 +84,7 @@ todoForm.addEventListener("submit", (e) => {
 
 })
 
+
 document.addEventListener("click", (e) => {
     const targetEl = e.target;
     const parentEl = targetEl.closest("div");
@@ -102,6 +109,31 @@ document.addEventListener("click", (e) => {
         oldInputValue = todoTitle;
     }
 })
+
+themeBeach.addEventListener("click",(e) =>{
+    e.preventDefault();
+    console.log("praia")
+    document.body.style.backgroundImage="url(img/beach.gif)"
+})
+
+themeHack.addEventListener("click",(e)=> {
+    e.preventDefault();
+    console.log("hack")
+    document.body.style.backgroundImage="url(img/hacker.gif)"
+})
+
+themeWild.addEventListener("click",(e)=>{
+    e.preventDefault();
+    document.body.style.backgroundImage="url(img/paisagem.gif)"
+})
+
+themeFocus.addEventListener("click",(e)=>{
+    e.preventDefault()
+    document.body.style.backgroundImage="none"
+})
+
+
+
 
 cancelEditBtn.addEventListener("click", (e) => {
     e.preventDefault();
