@@ -9,14 +9,15 @@ Apenas de forma local, *nao foi feito o back-end.
   <li> Editar tarefa</li>
   <li> Marcar tarefa como concluida</li>
   <li> Excluir tarefa</li>
+   <li>Filtrar tarefas: Feitas, A fazer, Finalizadas.</li>
 </ul>
 
 <h2> PROXIMAS ATUALIZAÇÕES </h2>
 <ul>
   <li> REGISTRAR HORA QUE INICIOU A TAREFA</li>
   <li> CRONOMETRO POMODORO 25MIN </li>
-  <li> FILTRAR TAREFAS FEITAS, A FAZER E COMPLETADAS </li>
   <li> ALTERAR BACKGROUND OUTRAS IMAGENS </li>
+  <li> FUNÇÃO PESQUISAR </li>
 </ul>
 
 <h2> LINKS </h2>
