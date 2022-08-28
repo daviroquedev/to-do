@@ -29,5 +29,5 @@ Apenas de forma local, *nao foi feito o back-end.
 
 <h2> TELA </h2>
 
-![image](https://user-images.githubusercontent.com/101668192/186216316-623c5bb2-53d6-4172-a72e-7a5a19c2ba97.png)
+![image](https://user-images.githubusercontent.com/101668192/187097279-1faba889-5864-4bf4-984e-1639c855929b.png)
 
