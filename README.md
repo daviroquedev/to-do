@@ -1,4 +1,4 @@
-# FERRAMENTA TO DO EM CONSTRUÇÃO
+# FERRAMENTA TO DO V.1.2
 
 Ferramenta to-do feita para orgnanizar os estudos e decidir qual a proxima tarefa a ser executada.
 Apenas de forma local, *nao foi feito o back-end.
