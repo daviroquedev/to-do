@@ -17,6 +17,7 @@ Apenas de forma local, *nao foi feito o back-end.
 <ul>
   <li> REGISTRAR HORA QUE INICIOU A TAREFA</li>
   <li> CRONOMETRO POMODORO 25MIN </li>
+  <li> MEDIA QUERIES </li>
   
   <li> FUNÇÃO PESQUISAR </li>
 </ul>
