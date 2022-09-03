@@ -24,7 +24,7 @@ Apenas de forma local, *nao foi feito o back-end.
 
 <h2> LINKS </h2>
 
-<a href="https://daviroquedev.github.io/to-do/"> DEPLOY </a>
+<a href="https://daviroquedev.github.io/to-do/"  target="_blank"> DEPLOY </a>
 
 <a href="https://docs.google.com/document/d/e/2PACX-1vQCWishanVGK1xvVo_b9xG_SKVKte7cH937u33f9Ix7Zgh2oj0k3GFm7DLQU5C12QyvJQyjZ-hc8NeY/pub"> DOCUMENTAÇÃO JAVASCRIPT UTILIZADO </a>
 
